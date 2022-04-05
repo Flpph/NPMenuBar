@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3EF083027FCBC1500289FB9 /* MacMenuAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF082F27FCBC1500289FB9 /* MacMenuAppApp.swift */; };
+		B3EF083227FCBC1500289FB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF083127FCBC1500289FB9 /* ContentView.swift */; };
+		B3EF083427FCBC1700289FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EF083327FCBC1700289FB9 /* Assets.xcassets */; };
+		B3EF083727FCBC1700289FB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EF083627FCBC1700289FB9 /* Preview Assets.xcassets */; };
+		B3EF084227FCBC1700289FB9 /* MacMenuAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF084127FCBC1700289FB9 /* MacMenuAppTests.swift */; };
+		B3EF084C27FCBC1700289FB9 /* MacMenuAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF084B27FCBC1700289FB9 /* MacMenuAppUITests.swift */; };
+		B3EF084E27FCBC1700289FB9 /* MacMenuAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF084D27FCBC1700289FB9 /* MacMenuAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3EF083E27FCBC1700289FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3EF082427FCBC1500289FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3EF082B27FCBC1500289FB9;
+			remoteInfo = MacMenuApp;
+		};
+		B3EF084827FCBC1700289FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3EF082427FCBC1500289FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3EF082B27FCBC1500289FB9;
+			remoteInfo = MacMenuApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3EF082C27FCBC1500289FB9 /* MacMenuApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacMenuApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EF082F27FCBC1500289FB9 /* MacMenuAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMenuAppApp.swift; sourceTree = "<group>"; };
+		B3EF083127FCBC1500289FB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B3EF083327FCBC1700289FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3EF083627FCBC1700289FB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3EF083827FCBC1700289FB9 /* MacMenuApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacMenuApp.entitlements; sourceTree = "<group>"; };
+		B3EF083D27FCBC1700289FB9 /* MacMenuAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacMenuAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EF084127FCBC1700289FB9 /* MacMenuAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMenuAppTests.swift; sourceTree = "<group>"; };
+		B3EF084727FCBC1700289FB9 /* MacMenuAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacMenuAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3EF084B27FCBC1700289FB9 /* MacMenuAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMenuAppUITests.swift; sourceTree = "<group>"; };
+		B3EF084D27FCBC1700289FB9 /* MacMenuAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacMenuAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3EF082927FCBC1500289FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EF083A27FCBC1700289FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EF084427FCBC1700289FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3EF082327FCBC1500289FB9 = {
+			isa = PBXGroup;
+			children = (
+				B3EF082E27FCBC1500289FB9 /* MacMenuApp */,
+				B3EF084027FCBC1700289FB9 /* MacMenuAppTests */,
+				B3EF084A27FCBC1700289FB9 /* MacMenuAppUITests */,
+				B3EF082D27FCBC1500289FB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3EF082D27FCBC1500289FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3EF082C27FCBC1500289FB9 /* MacMenuApp.app */,
+				B3EF083D27FCBC1700289FB9 /* MacMenuAppTests.xctest */,
+				B3EF084727FCBC1700289FB9 /* MacMenuAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3EF082E27FCBC1500289FB9 /* MacMenuApp */ = {
+			isa = PBXGroup;
+			children = (
+				B3EF082F27FCBC1500289FB9 /* MacMenuAppApp.swift */,
+				B3EF083127FCBC1500289FB9 /* ContentView.swift */,
+				B3EF083327FCBC1700289FB9 /* Assets.xcassets */,
+				B3EF083827FCBC1700289FB9 /* MacMenuApp.entitlements */,
+				B3EF083527FCBC1700289FB9 /* Preview Content */,
+			);
+			path = MacMenuApp;
+			sourceTree = "<group>";
+		};
+		B3EF083527FCBC1700289FB9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B3EF083627FCBC1700289FB9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3EF084027FCBC1700289FB9 /* MacMenuAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3EF084127FCBC1700289FB9 /* MacMenuAppTests.swift */,
+			);
+			path = MacMenuAppTests;
+			sourceTree = "<group>";
+		};
+		B3EF084A27FCBC1700289FB9 /* MacMenuAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3EF084B27FCBC1700289FB9 /* MacMenuAppUITests.swift */,
+				B3EF084D27FCBC1700289FB9 /* MacMenuAppUITestsLaunchTests.swift */,
+			);
+			path = MacMenuAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3EF082B27FCBC1500289FB9 /* MacMenuApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EF085127FCBC1700289FB9 /* Build configuration list for PBXNativeTarget "MacMenuApp" */;
+			buildPhases = (
+				B3EF082827FCBC1500289FB9 /* Sources */,
+				B3EF082927FCBC1500289FB9 /* Frameworks */,
+				B3EF082A27FCBC1500289FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacMenuApp;
+			productName = MacMenuApp;
+			productReference = B3EF082C27FCBC1500289FB9 /* MacMenuApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3EF083C27FCBC1700289FB9 /* MacMenuAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EF085427FCBC1700289FB9 /* Build configuration list for PBXNativeTarget "MacMenuAppTests" */;
+			buildPhases = (
+				B3EF083927FCBC1700289FB9 /* Sources */,
+				B3EF083A27FCBC1700289FB9 /* Frameworks */,
+				B3EF083B27FCBC1700289FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3EF083F27FCBC1700289FB9 /* PBXTargetDependency */,
+			);
+			name = MacMenuAppTests;
+			productName = MacMenuAppTests;
+			productReference = B3EF083D27FCBC1700289FB9 /* MacMenuAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3EF084627FCBC1700289FB9 /* MacMenuAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3EF085727FCBC1700289FB9 /* Build configuration list for PBXNativeTarget "MacMenuAppUITests" */;
+			buildPhases = (
+				B3EF084327FCBC1700289FB9 /* Sources */,
+				B3EF084427FCBC1700289FB9 /* Frameworks */,
+				B3EF084527FCBC1700289FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3EF084927FCBC1700289FB9 /* PBXTargetDependency */,
+			);
+			name = MacMenuAppUITests;
+			productName = MacMenuAppUITests;
+			productReference = B3EF084727FCBC1700289FB9 /* MacMenuAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3EF082427FCBC1500289FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B3EF082B27FCBC1500289FB9 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					B3EF083C27FCBC1700289FB9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = B3EF082B27FCBC1500289FB9;
+					};
+					B3EF084627FCBC1700289FB9 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = B3EF082B27FCBC1500289FB9;
+					};
+				};
+			};
+			buildConfigurationList = B3EF082727FCBC1500289FB9 /* Build configuration list for PBXProject "MacMenuApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3EF082327FCBC1500289FB9;
+			productRefGroup = B3EF082D27FCBC1500289FB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3EF082B27FCBC1500289FB9 /* MacMenuApp */,
+				B3EF083C27FCBC1700289FB9 /* MacMenuAppTests */,
+				B3EF084627FCBC1700289FB9 /* MacMenuAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3EF082A27FCBC1500289FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EF083727FCBC1700289FB9 /* Preview Assets.xcassets in Resources */,
+				B3EF083427FCBC1700289FB9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EF083B27FCBC1700289FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EF084527FCBC1700289FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3EF082827FCBC1500289FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EF083227FCBC1500289FB9 /* ContentView.swift in Sources */,
+				B3EF083027FCBC1500289FB9 /* MacMenuAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EF083927FCBC1700289FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EF084227FCBC1700289FB9 /* MacMenuAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3EF084327FCBC1700289FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3EF084C27FCBC1700289FB9 /* MacMenuAppUITests.swift in Sources */,
+				B3EF084E27FCBC1700289FB9 /* MacMenuAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3EF083F27FCBC1700289FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3EF082B27FCBC1500289FB9 /* MacMenuApp */;
+			targetProxy = B3EF083E27FCBC1700289FB9 /* PBXContainerItemProxy */;
+		};
+		B3EF084927FCBC1700289FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3EF082B27FCBC1500289FB9 /* MacMenuApp */;
+			targetProxy = B3EF084827FCBC1700289FB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B3EF084F27FCBC1700289FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3EF085027FCBC1700289FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B3EF085227FCBC1700289FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacMenuApp/MacMenuApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacMenuApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PN32L5PAE9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.attilaszel.MacMenuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B3EF085327FCBC1700289FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacMenuApp/MacMenuApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacMenuApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PN32L5PAE9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.attilaszel.MacMenuApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B3EF085527FCBC1700289FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN32L5PAE9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.attilaszel.MacMenuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacMenuApp.app/Contents/MacOS/MacMenuApp";
+			};
+			name = Debug;
+		};
+		B3EF085627FCBC1700289FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN32L5PAE9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.attilaszel.MacMenuAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacMenuApp.app/Contents/MacOS/MacMenuApp";
+			};
+			name = Release;
+		};
+		B3EF085827FCBC1700289FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN32L5PAE9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.attilaszel.MacMenuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacMenuApp;
+			};
+			name = Debug;
+		};
+		B3EF085927FCBC1700289FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PN32L5PAE9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.attilaszel.MacMenuAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacMenuApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3EF082727FCBC1500289FB9 /* Build configuration list for PBXProject "MacMenuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EF084F27FCBC1700289FB9 /* Debug */,
+				B3EF085027FCBC1700289FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EF085127FCBC1700289FB9 /* Build configuration list for PBXNativeTarget "MacMenuApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EF085227FCBC1700289FB9 /* Debug */,
+				B3EF085327FCBC1700289FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EF085427FCBC1700289FB9 /* Build configuration list for PBXNativeTarget "MacMenuAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EF085527FCBC1700289FB9 /* Debug */,
+				B3EF085627FCBC1700289FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3EF085727FCBC1700289FB9 /* Build configuration list for PBXNativeTarget "MacMenuAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3EF085827FCBC1700289FB9 /* Debug */,
+				B3EF085927FCBC1700289FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3EF082427FCBC1500289FB9 /* Project object */;
+}

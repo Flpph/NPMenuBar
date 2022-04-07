@@ -1,6 +1,6 @@
 # NPMenuBar
 
-NPMenuBar is a macOS app built with SwiftUI to show your currently playing song from Spotify (Apple Music later).  
+NPMenuBar is a macOS app built with SwiftUI to show your currently playing song from Spotify (Apple Music later) in your menu bar.  
 The original app was built by [kmikiy](https://github.com/kmikiy) and the project can be found here: [SpotMenu](https://github.com/kmikiy/SpotMenu).
 
 ## Help

@@ -1,6 +1,6 @@
 //
-//  MacMenuAppApp.swift
-//  MacMenuApp
+//  NPMenuBarApp.swift
+//  NPMenuBar
 //
 //  Created by Attila Szél on 2022. 04. 05..
 //
@@ -43,19 +43,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             window.close()
         }
         
-        // The player
-        
-        musicPlayerManager = MusicPlayerManager()
-        musicPlayerManager.add(musicPlayer: .spotify)
-        
-        musicPlayerManager.delegate = self
-        
-        viewModel.setupMusicPlayer(musicPlayerManager)
-        
-        statusItem = NSStatusBar.system.statusItem(withLength: 256)
+        statusItem = NSStatusBar.system.statusItem(withLength: 200)
         guard let contentView = self.contentView, let menuButton = statusItem?.button else { return }
         
-        let hostingView = NSHostingView(rootView: ScrollingTextView(viewModel: viewModel))
+        let hostingView = NSHostingView(rootView: MenuBarView(viewModel: viewModel))
         hostingView.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(hostingView)
         
@@ -69,7 +60,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         menuButton.action = #selector(MenuButtonToggle)
         
         setupPopover()
-        updateTitle()
     }
     
     // MARK: - Private functions
@@ -90,29 +80,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             menuButton.bounds = menuButton.bounds.offsetBy(dx: 0, dy: menuButton.bounds.height)
             popOver.contentViewController?.view.window?.makeKey()
         }
-    }
-    
-    @objc func updateTitle() {
-        viewModel.updateView()
-        Console.info("Track change detected.")
-    }
-}
-
-extension AppDelegate: MusicPlayerManagerDelegate {
-    func manager(_: MusicPlayerManager, trackingPlayer _: MusicPlayer, didChangeTrack _: MusicTrack, atPosition _: TimeInterval) {
-        updateTitle()
-    }
-
-    func manager(_: MusicPlayerManager, trackingPlayer _: MusicPlayer, playbackStateChanged _: MusicPlaybackState, atPosition _: TimeInterval) {
-        updateTitle()
-    }
-
-    func manager(_: MusicPlayerManager, trackingPlayerDidQuit _: MusicPlayer) {
-        updateTitle()
-    }
-
-    func manager(_: MusicPlayerManager, trackingPlayerDidChange player: MusicPlayer) {
-        return
     }
 }
 

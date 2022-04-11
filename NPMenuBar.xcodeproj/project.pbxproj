@@ -37,7 +37,7 @@
 		B35C780327FE0D6500AC4CA4 /* Vox.h in Headers */ = {isa = PBXBuildFile; fileRef = B35C77E727FE0D6500AC4CA4 /* Vox.h */; };
 		B35C780427FE0D6500AC4CA4 /* VoxBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C77E827FE0D6500AC4CA4 /* VoxBridge.swift */; };
 		B35C780527FE0D6500AC4CA4 /* SBProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C77E927FE0D6500AC4CA4 /* SBProtocols.swift */; };
-		B3AD221127FDBC3200D3AC8D /* ScrollingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AD221027FDBC3200D3AC8D /* ScrollingTextView.swift */; };
+		B3AD221127FDBC3200D3AC8D /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AD221027FDBC3200D3AC8D /* MenuBarView.swift */; };
 		B3EF083027FCBC1500289FB9 /* NPMenuBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF082F27FCBC1500289FB9 /* NPMenuBarApp.swift */; };
 		B3EF083227FCBC1500289FB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF083127FCBC1500289FB9 /* ContentView.swift */; };
 		B3EF083427FCBC1700289FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EF083327FCBC1700289FB9 /* Assets.xcassets */; };
@@ -101,7 +101,7 @@
 		B35C77E727FE0D6500AC4CA4 /* Vox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vox.h; sourceTree = "<group>"; };
 		B35C77E827FE0D6500AC4CA4 /* VoxBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoxBridge.swift; sourceTree = "<group>"; };
 		B35C77E927FE0D6500AC4CA4 /* SBProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBProtocols.swift; sourceTree = "<group>"; };
-		B3AD221027FDBC3200D3AC8D /* ScrollingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingTextView.swift; sourceTree = "<group>"; };
+		B3AD221027FDBC3200D3AC8D /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
 		B3EF082C27FCBC1500289FB9 /* NPMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EF082F27FCBC1500289FB9 /* NPMenuBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPMenuBarApp.swift; sourceTree = "<group>"; };
 		B3EF083127FCBC1500289FB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -291,7 +291,7 @@
 			isa = PBXGroup;
 			children = (
 				B3EF083127FCBC1500289FB9 /* ContentView.swift */,
-				B3AD221027FDBC3200D3AC8D /* ScrollingTextView.swift */,
+				B3AD221027FDBC3200D3AC8D /* MenuBarView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -496,7 +496,7 @@
 				B3EF086027FCC7FD00289FB9 /* ConsoleExtensions.swift in Sources */,
 				B3EF083027FCBC1500289FB9 /* NPMenuBarApp.swift in Sources */,
 				B35C769527FE042700AC4CA4 /* MenuBarViewModel.swift in Sources */,
-				B3AD221127FDBC3200D3AC8D /* ScrollingTextView.swift in Sources */,
+				B3AD221127FDBC3200D3AC8D /* MenuBarView.swift in Sources */,
 				B3EF085D27FCC57300289FB9 /* Console.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -707,11 +707,7 @@
 				DEVELOPMENT_TEAM = PN32L5PAE9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/MacMenuAppUITests",
-					"$(PROJECT_DIR)/MacMenuApp",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NPMenuBar/Info.plist;
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "NPMenuBar uses Apple Scripts to control Spotify";
@@ -745,11 +741,7 @@
 				DEVELOPMENT_TEAM = PN32L5PAE9;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/MacMenuAppUITests",
-					"$(PROJECT_DIR)/MacMenuApp",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NPMenuBar/Info.plist;
 				INFOPLIST_KEY_NSAppleEventsUsageDescription = "NPMenuBar uses Apple Scripts to control Spotify";

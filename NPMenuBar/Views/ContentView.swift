@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  MacMenuApp
+//  NPMenuBar
 //
 //  Created by Attila Szél on 2022. 04. 05..
 //

@@ -1,8 +1,6 @@
 //
-//  ConsoleExtensions.swift
-//  MacMenuApp
-//
-//  Created by Attila Szél on 2022. 04. 05..
+//  Console.swift
+//  Copyright © 2016 Grant Davis Interactive, LLC. All rights reserved.
 //
 
 import Foundation

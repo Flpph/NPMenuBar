@@ -90,7 +90,7 @@ extension AppDelegate: NSPopoverDelegate {
     func setupPopover() {
         popOver.behavior = .transient
         popOver.animates = true
-        popOver.contentSize = .init(width: 240, height: 280)
+        popOver.contentSize = .init(width: 300, height: 300)
         popOver.contentViewController = NSViewController()
         popOver.contentViewController?.view = NSHostingView(rootView: ContentView())
         popOver.delegate = self

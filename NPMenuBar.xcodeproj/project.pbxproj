@@ -38,12 +38,16 @@
 		B35C780427FE0D6500AC4CA4 /* VoxBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C77E827FE0D6500AC4CA4 /* VoxBridge.swift */; };
 		B35C780527FE0D6500AC4CA4 /* SBProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35C77E927FE0D6500AC4CA4 /* SBProtocols.swift */; };
 		B3AD221127FDBC3200D3AC8D /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AD221027FDBC3200D3AC8D /* MenuBarView.swift */; };
+		B3E356912804085F005D9E99 /* PopoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E356902804085F005D9E99 /* PopoutViewModel.swift */; };
+		B3E3569428040C9C005D9E99 /* ArtworkLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E3569328040C9C005D9E99 /* ArtworkLoader.swift */; };
 		B3EF083027FCBC1500289FB9 /* NPMenuBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF082F27FCBC1500289FB9 /* NPMenuBarApp.swift */; };
 		B3EF083227FCBC1500289FB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF083127FCBC1500289FB9 /* ContentView.swift */; };
 		B3EF083427FCBC1700289FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EF083327FCBC1700289FB9 /* Assets.xcassets */; };
 		B3EF083727FCBC1700289FB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3EF083627FCBC1700289FB9 /* Preview Assets.xcassets */; };
 		B3EF085D27FCC57300289FB9 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF085C27FCC57300289FB9 /* Console.swift */; };
 		B3EF086027FCC7FD00289FB9 /* ConsoleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EF085F27FCC7FD00289FB9 /* ConsoleExtensions.swift */; };
+		B3FCC80628043EF8008A4AB9 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FCC80528043EF8008A4AB9 /* Console.swift */; };
+		B3FCC80828043F0A008A4AB9 /* ConsoleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FCC80728043F0A008A4AB9 /* ConsoleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +106,8 @@
 		B35C77E827FE0D6500AC4CA4 /* VoxBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoxBridge.swift; sourceTree = "<group>"; };
 		B35C77E927FE0D6500AC4CA4 /* SBProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBProtocols.swift; sourceTree = "<group>"; };
 		B3AD221027FDBC3200D3AC8D /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		B3E356902804085F005D9E99 /* PopoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoutViewModel.swift; sourceTree = "<group>"; };
+		B3E3569328040C9C005D9E99 /* ArtworkLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkLoader.swift; sourceTree = "<group>"; };
 		B3EF082C27FCBC1500289FB9 /* NPMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EF082F27FCBC1500289FB9 /* NPMenuBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPMenuBarApp.swift; sourceTree = "<group>"; };
 		B3EF083127FCBC1500289FB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +117,8 @@
 		B3EF085C27FCC57300289FB9 /* Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
 		B3EF085F27FCC7FD00289FB9 /* ConsoleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleExtensions.swift; sourceTree = "<group>"; };
 		B3EF086127FCC89B00289FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FCC80528043EF8008A4AB9 /* Console.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Console.swift; sourceTree = "<group>"; };
+		B3FCC80728043F0A008A4AB9 /* ConsoleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				B35C769427FE042700AC4CA4 /* MenuBarViewModel.swift */,
+				B3E356902804085F005D9E99 /* PopoutViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -143,6 +152,7 @@
 		B35C770127FE0D0200AC4CA4 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				B3FCC80428043ED2008A4AB9 /* Console */,
 				B35C77D927FE0D6500AC4CA4 /* Bridges */,
 				B35C77C727FE0D6400AC4CA4 /* Global.swift */,
 				B35C77C827FE0D6500AC4CA4 /* Info.plist */,
@@ -296,6 +306,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		B3E3569228040C91005D9E99 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B3E3569328040C9C005D9E99 /* ArtworkLoader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		B3EF082327FCBC1500289FB9 = {
 			isa = PBXGroup;
 			children = (
@@ -317,6 +335,7 @@
 		B3EF082E27FCBC1500289FB9 /* NPMenuBar */ = {
 			isa = PBXGroup;
 			children = (
+				B3E3569228040C91005D9E99 /* Helpers */,
 				B35C769327FE041600AC4CA4 /* ViewModels */,
 				B394A44127FCE1E8007A4A00 /* Views */,
 				B3EF085E27FCC7F100289FB9 /* Extensions */,
@@ -344,6 +363,15 @@
 				B3EF085F27FCC7FD00289FB9 /* ConsoleExtensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B3FCC80428043ED2008A4AB9 /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				B3FCC80528043EF8008A4AB9 /* Console.swift */,
+				B3FCC80728043F0A008A4AB9 /* ConsoleExtension.swift */,
+			);
+			path = Console;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,6 +496,7 @@
 				B35C77EB27FE0D6500AC4CA4 /* PlayerTimer.swift in Sources */,
 				B35C77EF27FE0D6500AC4CA4 /* Global.swift in Sources */,
 				B35C77EA27FE0D6500AC4CA4 /* MusicPlayerManager.swift in Sources */,
+				B3FCC80828043F0A008A4AB9 /* ConsoleExtension.swift in Sources */,
 				B35C77FD27FE0D6500AC4CA4 /* SpotifyBridge.swift in Sources */,
 				B35C77FF27FE0D6500AC4CA4 /* iTunesScripting.swift in Sources */,
 				B35C77EC27FE0D6500AC4CA4 /* MusicPlayerFactory.swift in Sources */,
@@ -481,6 +510,7 @@
 				B35C77F727FE0D6500AC4CA4 /* MusicPlayerEX.swift in Sources */,
 				B35C77F127FE0D6500AC4CA4 /* Spotify+MusicPlayer.swift in Sources */,
 				B35C77FA27FE0D6500AC4CA4 /* MusicPlayerDelegate.swift in Sources */,
+				B3FCC80628043EF8008A4AB9 /* Console.swift in Sources */,
 				B35C780527FE0D6500AC4CA4 /* SBProtocols.swift in Sources */,
 				B35C77F527FE0D6500AC4CA4 /* Vox+MusicPlayer.swift in Sources */,
 				B35C780427FE0D6500AC4CA4 /* VoxBridge.swift in Sources */,
@@ -492,12 +522,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E356912804085F005D9E99 /* PopoutViewModel.swift in Sources */,
 				B3EF083227FCBC1500289FB9 /* ContentView.swift in Sources */,
 				B3EF086027FCC7FD00289FB9 /* ConsoleExtensions.swift in Sources */,
 				B3EF083027FCBC1500289FB9 /* NPMenuBarApp.swift in Sources */,
 				B35C769527FE042700AC4CA4 /* MenuBarViewModel.swift in Sources */,
 				B3AD221127FDBC3200D3AC8D /* MenuBarView.swift in Sources */,
 				B3EF085D27FCC57300289FB9 /* Console.swift in Sources */,
+				B3E3569428040C9C005D9E99 /* ArtworkLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
